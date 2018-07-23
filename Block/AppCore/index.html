@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>KODAKA code generator</title>
+  <script src="blockly_compressed.js"></script>
+  <script src="blocks_compressed.js"></script>
+    <script src="msg/javascript_compressed.js"></script>
+  <script src="msg/js/fr.js"></script>
+  <style>
+    body {
+      background-color: #fff;
+      font-family: sans-serif;
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 0;
+    }
+    h1 {
+      font-weight: normal;
+      font-size: 140%;
+    }
+      #blocklyDiv{
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: 25px;
+      }
+      .toolBar{
+          margin-left: 0px;
+          padding: 0px;
+          width: 100%;
+          height: 40px;
+          background-color: dodgerblue;
+          box-shadow: #a8a8a8 0px 2px 1.5px 0px;
+
+      }
+      .logo{
+          margin: 0px;
+          padding: 10px;
+          color: white;
+          font-size: 20px;
+      }
+      #generateCode{
+          position: absolute;
+          width: 200px;
+          height: 200px;
+          border: 10px solid;
+      }
+  </style>
+</head>
+<body>
+      <div id="blocklyDiv" style="height: 480px; width: 600px;">
+  </div>
+
+  <xml id="toolbox" style="display: none">
+    <block type="controls_if"></block>
+    <block type="logic_compare"></block>
+    <block type="controls_repeat_ext"></block>
+    <block type="math_number"></block>
+    <block type="math_arithmetic"></block>
+    <block type="text"></block>
+    <block type="math_change"></block>
+    <block type="text_print"></block>
+  </xml>
+    <button value="generate code" onclick="run()"></button>
+  <script>
+      try {
+          var mathChangeJson = {
+              "message0": "change %1 by %2",
+              "args0": [
+                  {"type": "field_variable", "name": "VAR", "variable": "item", "variableTypes": [""]},
+                  {"type": "input_value", "name": "DELTA", "check": "Number"}
+              ],
+              "nextStatement": null,
+              "colour": 230
+          };
+
+          Blockly.Blocks['math_change'] = {
+              init: function() {
+                  this.jsonInit(mathChangeJson);
+                  // Assign 'this' to a variable for use in the tooltip closure below.
+                  var thisBlock = this;
+                  this.setTooltip(function() {
+                      return 'Add a number to variable "%1".'.replace('%1',
+                              thisBlock.getFieldValue('VAR'));
+                  });
+              }
+          };
+      }catch (e){
+          console.log(e.message)
+      }
+
+        var demoWorkspace = Blockly.inject('blocklyDiv',
+            {media: 'media/',
+             toolbox: document.getElementById('toolbox')});
+      function run() {
+
+              var xml = Blockly.JavaScript.workspaceToCode(demoWorkspace)
+              eval(xml);
+      }
+  </script>
+
+</body>
+</html>
