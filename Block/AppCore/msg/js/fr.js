@@ -314,7 +314,7 @@ goog.require('Blockly.Msg');
 /** @export */ Blockly.Msg.REDO = "Refaire";
 /** @export */ Blockly.Msg.REMOVE_COMMENT = "Supprimer un commentaire";
 /** @export */ Blockly.Msg.RENAME_VARIABLE = "Renommer la variable…";
-/** @export */ Blockly.Msg.RENAME_VARIABLE_TITLE = "Renommer toutes les variables « %1 » en :";
+/** @export */ Blockly.Msg.RENAME_VARIABLE_TITLE = "Renommer toutes les variables « %1 » en :";
 /** @export */ Blockly.Msg.TEXT_APPEND_HELPURL = "https://github.com/google/blockly/wiki/Text#text-modification";  // untranslated
 /** @export */ Blockly.Msg.TEXT_APPEND_TITLE = "ajouter le texte %2 à %1";
 /** @export */ Blockly.Msg.TEXT_APPEND_TOOLTIP = "Ajouter du texte à la variable '%1'.";

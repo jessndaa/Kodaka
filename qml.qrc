@@ -4,5 +4,259 @@
         <file>Page1.qml</file>
         <file>Page1Form.ui.qml</file>
         <file>qtquickcontrols2.conf</file>
+        <file>Window/MainApp.qml</file>
+        <file>Window/MainAppForm.ui.qml</file>
+        <file>Material/ToolBar.qml</file>
+        <file>Material/ToolBarForm.ui.qml</file>
+        <file>Material/Tool/IconButton.qml</file>
+        <file>Material/Tool/deafault/standard_close.png</file>
+        <file>Material/Tool/WindowsStryleIcon.qml</file>
+        <file>Material/Tool/WindowsStryleIconForm.ui.qml</file>
+        <file>Material/Tool/deafault/standard_maximize.png</file>
+        <file>Material/Tool/deafault/standard_minimize.png</file>
+        <file>Material/Tool/deafault/menu.png</file>
+        <file>Material/Menu.qml</file>
+        <file>Material/SessionMenu.qml</file>
+        <file>Material/Tool/deafault/newIcon.png</file>
+        <file>Material/Tool/deafault/openIcon.png</file>
+        <file>Material/Tool/deafault/configIcon.png</file>
+        <file>Material/Tool/deafault/iconCodakaDoc.png</file>
+        <file>Material/WebEngineCorps.qml</file>
+        <file>Material/Tool/LoaderDesign.qml</file>
+        <file>Material/Tool/RoundedButton.qml</file>
+        <file>Material/Tool/RoundedButtonForm.ui.qml</file>
+        <file>Material/Tool/deafault/run.png</file>
+        <file>Window/MainApp.js</file>
+        <file>Block/AppCore/blockly_accessible_compressed.js</file>
+        <file>Block/AppCore/blockly_compressed.js</file>
+        <file>Block/AppCore/blocks_compressed.js</file>
+        <file>Block/AppCore/dart_compressed.js</file>
+        <file>Block/AppCore/index.html</file>
+        <file>Block/AppCore/media/1x1.gif</file>
+        <file>Block/AppCore/media/click.mp3</file>
+        <file>Block/AppCore/media/click.ogg</file>
+        <file>Block/AppCore/media/click.wav</file>
+        <file>Block/AppCore/media/delete.mp3</file>
+        <file>Block/AppCore/media/delete.ogg</file>
+        <file>Block/AppCore/media/delete.wav</file>
+        <file>Block/AppCore/media/disconnect.mp3</file>
+        <file>Block/AppCore/media/disconnect.ogg</file>
+        <file>Block/AppCore/media/disconnect.wav</file>
+        <file>Block/AppCore/media/handclosed.cur</file>
+        <file>Block/AppCore/media/handdelete.cur</file>
+        <file>Block/AppCore/media/handopen.cur</file>
+        <file>Block/AppCore/media/quote0.png</file>
+        <file>Block/AppCore/media/quote1.png</file>
+        <file>Block/AppCore/media/sprites.png</file>
+        <file>Block/AppCore/media/sprites.svg</file>
+        <file>Block/AppCore/msg/javascript_compressed.js</file>
+        <file>Block/AppCore/msg/messages.js</file>
+        <file>Block/AppCore/msg/js/fr.js</file>
+        <file>Block/AppCore/Addons.js</file>
+        <file>Block/AppCore/js/core.js</file>
+        <file>Block/AppCore/js/workSpace.js</file>
+        <file>Block/AppCore/css/basicStyle.css</file>
+        <file>Block/AppCore/js/javascript_compressed.js</file>
+        <file>Material/Tool/AlertDialogue.qml</file>
+        <file>Material/Tool/AlertDialogueForm.ui.qml</file>
+        <file>Material/Tool/BasicButton.qml</file>
+        <file>Window/KodakaConsole.qml</file>
+        <file>Window/KodakaConsoleForm.ui.qml</file>
+        <file>Window/html/index.html</file>
+        <file>Window/html/fromUser/code.js</file>
+        <file>Window/consoleView/AlertDialogue.qml</file>
+        <file>Window/ButtonType/ButtonAccept.qml</file>
+        <file>Material/Tool/deafault/debug.png</file>
+        <file>Material/Tool/deafault/new.png</file>
+        <file>Material/Tool/deafault/open.png</file>
+        <file>Material/Tool/deafault/config.png</file>
+        <file>Material/Tool/deafault/help.png</file>
+        <file>Material/ActionMenu.qml</file>
+        <file>Material/Tool/deafault/redo.png</file>
+        <file>Material/Tool/deafault/undo.png</file>
+        <file>Material/Tool/deafault/save.png</file>
+        <file>Window/FileDialogue.qml</file>
+        <file>Material/OpenDialog.qml</file>
+        <file>Material/OpenDialogForm.ui.qml</file>
+        <file>Material/SimpleButton.qml</file>
+        <file>Material/Tool/deafault/design.png</file>
+        <file>Material/Tool/deafault/saveicon.png</file>
+        <file>Window/icons/Delete_64px.png</file>
+        <file>Window/consoleView/PromptDialogue.qml</file>
+        <file>Window/consoleView/EmojiDialogue.qml</file>
+        <file>Window/consoleView/images/Crazy_48px.png</file>
+        <file>Window/consoleView/images/Crying_48px.png</file>
+        <file>Window/consoleView/images/Crying_50px.png</file>
+        <file>Window/consoleView/images/Nerd_40px.png</file>
+        <file>Window/consoleView/images/Nerd_48px.png</file>
+        <file>Window/consoleView/images/Neutral_52px.png</file>
+        <file>Window/consoleView/images/Surprised_48px.png</file>
+        <file>Window/consoleView/images/Swearing Female_48px.png</file>
+        <file>Window/consoleView/images/Wink_50px.png</file>
+        <file>Block/AppCore/media/emoji/Crazy_48px.png</file>
+        <file>Block/AppCore/media/emoji/Crying_48px.png</file>
+        <file>Block/AppCore/media/emoji/Crying_50px.png</file>
+        <file>Block/AppCore/media/emoji/Nerd_40px.png</file>
+        <file>Block/AppCore/media/emoji/Nerd_48px.png</file>
+        <file>Block/AppCore/media/emoji/Neutral_52px.png</file>
+        <file>Block/AppCore/media/emoji/Surprised_48px.png</file>
+        <file>Block/AppCore/media/emoji/Swearing Female_48px.png</file>
+        <file>Block/AppCore/media/emoji/Wink_50px.png</file>
+        <file>logo/KDK_Logo.png</file>
+        <file>Block/AppCore/git.js</file>
+        <file>Material/Tool/deafault/bg.png</file>
+        <file>Material/Tool/deafault/bgconsole.png</file>
+        <file>Material/MenuButton.qml</file>
+        <file>Material/Tool/deafault/File Submodule_50px.png</file>
+        <file>Material/Tool/deafault/Import_50px.png</file>
+        <file>Material/hover.png</file>
+        <file>Material/Tool/deafault/menu/Import_50px.png</file>
+        <file>Material/Tool/deafault/menu/JavaScript_50px.png</file>
+        <file>Material/Tool/deafault/menu/Open Folder_52px.png</file>
+        <file>Material/Tool/deafault/menu/PHP_50px.png</file>
+        <file>Material/Tool/deafault/menu/Python_50px_1.png</file>
+        <file>Material/Tool/deafault/menu/Open Folder_50px.png</file>
+        <file>Material/Tool/deafault/menu/File_50px.png</file>
+        <file>Material/Tool/deafault/menu/kdk_50px.png</file>
+        <file>Material/Tool/deafault/menu/Door Opened_50px.png</file>
+        <file>Material/Tool/deafault/menu/Save Archive_50px.png</file>
+        <file>Material/Tool/deafault/android.png</file>
+        <file>Material/Tool/deafault/exe.png</file>
+        <file>Window/icons/logo kdk (2).png</file>
+        <file>logo/iconekdk.png</file>
+        <file>iconekdk.png</file>
+        <file>Window/consoleView/images/Agent Smith_48px.png</file>
+        <file>Window/consoleView/images/Android OS_48px.png</file>
+        <file>Window/consoleView/images/Angel_48px.png</file>
+        <file>Window/consoleView/images/Apple_48px.png</file>
+        <file>Window/consoleView/images/Avatar_48px.png</file>
+        <file>Window/consoleView/images/Boxing 2_48px.png</file>
+        <file>Window/consoleView/images/Brain_48px.png</file>
+        <file>Window/consoleView/images/Breastfeeding_48px.png</file>
+        <file>Window/consoleView/images/Bride_48px.png</file>
+        <file>Window/consoleView/images/Controller_48px.png</file>
+        <file>Window/consoleView/images/Cool_48px.png</file>
+        <file>Window/consoleView/images/Corgi_48px.png</file>
+        <file>Window/consoleView/images/Date Man Woman_48px.png</file>
+        <file>Window/consoleView/images/DJ_48px.png</file>
+        <file>Window/consoleView/images/Evil_48px.png</file>
+        <file>Window/consoleView/images/Folder_48px.png</file>
+        <file>Window/consoleView/images/Fortune Teller_48px.png</file>
+        <file>Window/consoleView/images/Frankensteins Monster_48px.png</file>
+        <file>Window/consoleView/images/Fsociety Mask_48px.png</file>
+        <file>Window/consoleView/images/Geisha_48px.png</file>
+        <file>Window/consoleView/images/Groom_48px.png</file>
+        <file>Window/consoleView/images/Guest Female_48px.png</file>
+        <file>Window/consoleView/images/Hand Cursor_48px.png</file>
+        <file>Window/consoleView/images/Happy_48px.png</file>
+        <file>Window/consoleView/images/Hearing_48px.png</file>
+        <file>Window/consoleView/images/Heart With Arrow_48px.png</file>
+        <file>Window/consoleView/images/In Love_48px.png</file>
+        <file>Window/consoleView/images/Jumper_48px.png</file>
+        <file>Window/consoleView/images/Kiss_48px.png</file>
+        <file>Window/consoleView/images/Knitted Frog_48px.png</file>
+        <file>Window/consoleView/images/Like Filled_48px.png</file>
+        <file>Window/consoleView/images/Like It_48px.png</file>
+        <file>Window/consoleView/images/Linux_48px.png</file>
+        <file>Window/consoleView/images/LOL_48px.png</file>
+        <file>Window/consoleView/images/Mental State_48px.png</file>
+        <file>Window/consoleView/images/Mime_48px.png</file>
+        <file>Window/consoleView/images/Mouse Right Click_48px.png</file>
+        <file>Window/consoleView/images/Pig_48px.png</file>
+        <file>Window/consoleView/images/Print_48px.png</file>
+        <file>Window/consoleView/images/Python_48px.png</file>
+        <file>Window/consoleView/images/Question_48px.png</file>
+        <file>Window/consoleView/images/Save_48px.png</file>
+        <file>Window/consoleView/images/Silent_48px.png</file>
+        <file>Window/consoleView/images/Sleep_48px.png</file>
+        <file>Window/consoleView/images/Steve Jobs_48px.png</file>
+        <file>Window/consoleView/images/Tango_48px.png</file>
+        <file>Window/consoleView/images/Trinity_48px.png</file>
+        <file>Window/consoleView/images/Under Computer_48px.png</file>
+        <file>Window/consoleView/images/USB Disconnected_48px.png</file>
+        <file>Window/consoleView/images/USB Off_48px.png</file>
+        <file>Window/consoleView/images/Vampire_48px.png</file>
+        <file>Window/consoleView/images/Venom Head_48px.png</file>
+        <file>Window/consoleView/images/Watch TV in Bed_48px.png</file>
+        <file>Window/consoleView/images/Windows_48px.png</file>
+        <file>Window/consoleView/images/Wink_48px.png</file>
+        <file>Window/consoleView/images/Workstation_48px.png</file>
+        <file>Window/consoleView/images/Zombie_48px.png</file>
+        <file>Block/AppCore/media/emoji/Agent Smith_48px.png</file>
+        <file>Block/AppCore/media/emoji/Android OS_48px.png</file>
+        <file>Block/AppCore/media/emoji/Angel_48px.png</file>
+        <file>Block/AppCore/media/emoji/Apple_48px.png</file>
+        <file>Block/AppCore/media/emoji/Avatar_48px.png</file>
+        <file>Block/AppCore/media/emoji/Boxing 2_48px.png</file>
+        <file>Block/AppCore/media/emoji/Brain_48px.png</file>
+        <file>Block/AppCore/media/emoji/Brain_48px_1.png</file>
+        <file>Block/AppCore/media/emoji/Breastfeeding_48px.png</file>
+        <file>Block/AppCore/media/emoji/Bride_48px.png</file>
+        <file>Block/AppCore/media/emoji/Computer_40px.png</file>
+        <file>Block/AppCore/media/emoji/Controller_48px.png</file>
+        <file>Block/AppCore/media/emoji/Cool_48px.png</file>
+        <file>Block/AppCore/media/emoji/Corgi_48px.png</file>
+        <file>Block/AppCore/media/emoji/Date Man Woman_48px.png</file>
+        <file>Block/AppCore/media/emoji/DJ_48px.png</file>
+        <file>Block/AppCore/media/emoji/Evil_48px.png</file>
+        <file>Block/AppCore/media/emoji/Folder_48px.png</file>
+        <file>Block/AppCore/media/emoji/Fortune Teller_48px.png</file>
+        <file>Block/AppCore/media/emoji/Frankensteins Monster_48px.png</file>
+        <file>Block/AppCore/media/emoji/Fsociety Mask_48px.png</file>
+        <file>Block/AppCore/media/emoji/Geisha_48px.png</file>
+        <file>Block/AppCore/media/emoji/Groom_48px.png</file>
+        <file>Block/AppCore/media/emoji/Guest Female_48px.png</file>
+        <file>Block/AppCore/media/emoji/Hand Cursor_48px.png</file>
+        <file>Block/AppCore/media/emoji/Happy_48px.png</file>
+        <file>Block/AppCore/media/emoji/Happy_96px.png</file>
+        <file>Block/AppCore/media/emoji/Hearing_48px.png</file>
+        <file>Block/AppCore/media/emoji/Heart With Arrow_48px.png</file>
+        <file>Block/AppCore/media/emoji/In Love_48px.png</file>
+        <file>Block/AppCore/media/emoji/Jumper_48px.png</file>
+        <file>Block/AppCore/media/emoji/Kiss_48px.png</file>
+        <file>Block/AppCore/media/emoji/Knitted Frog_48px.png</file>
+        <file>Block/AppCore/media/emoji/Like Filled_48px.png</file>
+        <file>Block/AppCore/media/emoji/Like It_48px.png</file>
+        <file>Block/AppCore/media/emoji/Linux_48px.png</file>
+        <file>Block/AppCore/media/emoji/LOL_48px.png</file>
+        <file>Block/AppCore/media/emoji/Mental State_48px.png</file>
+        <file>Block/AppCore/media/emoji/Mime_48px.png</file>
+        <file>Block/AppCore/media/emoji/Mouse Right Click_48px.png</file>
+        <file>Block/AppCore/media/emoji/Pig_48px.png</file>
+        <file>Block/AppCore/media/emoji/Pokemon_40px.png</file>
+        <file>Block/AppCore/media/emoji/Print_48px.png</file>
+        <file>Block/AppCore/media/emoji/Python_48px.png</file>
+        <file>Block/AppCore/media/emoji/Question_48px.png</file>
+        <file>Block/AppCore/media/emoji/Save_48px.png</file>
+        <file>Block/AppCore/media/emoji/Silent_48px.png</file>
+        <file>Block/AppCore/media/emoji/Sleep_48px.png</file>
+        <file>Block/AppCore/media/emoji/Steve Jobs_48px.png</file>
+        <file>Block/AppCore/media/emoji/Tango_48px.png</file>
+        <file>Block/AppCore/media/emoji/Trinity_48px.png</file>
+        <file>Block/AppCore/media/emoji/Under Computer_40px.png</file>
+        <file>Block/AppCore/media/emoji/Under Computer_48px.png</file>
+        <file>Block/AppCore/media/emoji/USB Disconnected_48px.png</file>
+        <file>Block/AppCore/media/emoji/USB Off_48px.png</file>
+        <file>Block/AppCore/media/emoji/Vampire_48px.png</file>
+        <file>Block/AppCore/media/emoji/Venom Head_48px.png</file>
+        <file>Block/AppCore/media/emoji/Watch TV in Bed_48px.png</file>
+        <file>Block/AppCore/media/emoji/Windows_48px.png</file>
+        <file>Block/AppCore/media/emoji/Wink_48px.png</file>
+        <file>Block/AppCore/media/emoji/Workstation_48px.png</file>
+        <file>Block/AppCore/media/emoji/Zombie_48px.png</file>
+        <file>iconekdkdesktop.ico</file>
+        <file>Block/AppCore/js/php_compressed.js</file>
+        <file>Block/AppCore/js/python_compressed.js</file>
+        <file>Material/ButtonEnter.qml</file>
+        <file>Material/Tool/deafault/divers.png</file>
+        <file>Material/Tool/deafault/hello.png</file>
+        <file>Material/Tool/deafault/liste.png</file>
+        <file>Material/Tool/deafault/table_de_mul.png</file>
+        <file>Material/Tool/deafault/table_de_sinus.png</file>
+        <file>logo/logo.JPG</file>
+        <file>Window/LicencingWindow.qml</file>
+        <file>Window/LicencingWindowForm.ui.qml</file>
+        <file>Window/ButtonType/ButtomLicence.qml</file>
+        <file>Material/Tool/deafault/exe_.png</file>
     </qresource>
 </RCC>

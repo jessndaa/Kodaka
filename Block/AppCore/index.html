@@ -2,103 +2,340 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>KODAKA code generator</title>
   <script src="blockly_compressed.js"></script>
   <script src="blocks_compressed.js"></script>
-    <script src="msg/javascript_compressed.js"></script>
   <script src="msg/js/fr.js"></script>
-  <style>
-    body {
-      background-color: #fff;
-      font-family: sans-serif;
-        margin-top: 0px;
-        margin-left: 0px;
-        margin-right: 0px;
-        padding: 0;
-    }
-    h1 {
-      font-weight: normal;
-      font-size: 140%;
-    }
-      #blocklyDiv{
-          margin-left: auto;
-          margin-right: auto;
-          margin-top: 25px;
-      }
-      .toolBar{
-          margin-left: 0px;
-          padding: 0px;
-          width: 100%;
-          height: 40px;
-          background-color: dodgerblue;
-          box-shadow: #a8a8a8 0px 2px 1.5px 0px;
+  <script src="js/javascript_compressed.js"></script>
+  <script src="js/python_compressed.js"></script>
+  <script src="js/php_compressed.js"></script>
+  <script src="http://192.168.173.1:6687/socket.io/socket.io.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/basicStyle.css">
 
-      }
-      .logo{
-          margin: 0px;
-          padding: 10px;
-          color: white;
-          font-size: 20px;
-      }
-      #generateCode{
-          position: absolute;
-          width: 200px;
-          height: 200px;
-          border: 10px solid;
-      }
-  </style>
 </head>
 <body>
-      <div id="blocklyDiv" style="height: 480px; width: 600px;">
-  </div>
+  <table>
+    <tr>
+      <td id="blocklyArea"></td>
+    </tr>
+  </table>
+  <div id="blocklyDiv" style="position: absolute"></div>
 
   <xml id="toolbox" style="display: none">
-    <block type="controls_if"></block>
-    <block type="logic_compare"></block>
-    <block type="controls_repeat_ext"></block>
-    <block type="math_number"></block>
-    <block type="math_arithmetic"></block>
-    <block type="text"></block>
-    <block type="math_change"></block>
-    <block type="text_print"></block>
+    <category name="Variables" colour="%{BKY_VARIABLES_HUE}" custom="VARIABLE"></category>
+    <category name="Fonctions" colour="%{BKY_PROCEDURES_HUE}" custom="PROCEDURE"></category>
+    <category name="Logiques" colour="%{BKY_LOGIC_HUE}">
+      <block type="controls_if"></block>
+      <block type="logic_compare"></block>
+      <block type="logic_operation"></block>
+      <block type="logic_negate"></block>
+      <block type="logic_boolean"></block>
+      <block type="logic_null"></block>
+      <block type="logic_ternary"></block>
+    </category>
+    <category name="Boucles" colour="%{BKY_LOOPS_HUE}">
+      <block type="controls_repeat_ext">
+        <value name="TIMES">
+          <shadow type="math_number">
+            <field name="NUM">10</field>
+          </shadow>
+        </value>
+      </block>
+      <block type="controls_whileUntil"></block>
+      <block type="controls_for">
+        <value name="FROM">
+          <shadow type="math_number">
+            <field name="NUM">1</field>
+          </shadow>
+        </value>
+        <value name="TO">
+          <shadow type="math_number">
+            <field name="NUM">10</field>
+          </shadow>
+        </value>
+        <value name="BY">
+          <shadow type="math_number">
+            <field name="NUM">1</field>
+          </shadow>
+        </value>
+      </block>
+      <block type="controls_forEach"></block>
+      <block type="controls_flow_statements"></block>
+    </category>
+    <category name="Mathématique" colour="%{BKY_MATH_HUE}">
+      <block type="math_number"></block>
+      <block type="math_arithmetic">
+        <value name="A">
+          <shadow type="math_number">
+            <field name="NUM">1</field>
+          </shadow>
+        </value>
+        <value name="B">
+          <shadow type="math_number">
+            <field name="NUM">1</field>
+          </shadow>
+        </value>
+      </block>
+      <block type="math_single">
+        <value name="NUM">
+          <shadow type="math_number">
+            <field name="NUM">9</field>
+          </shadow>
+        </value>
+      </block>
+      <block type="math_trig">
+        <value name="NUM">
+          <shadow type="math_number">
+            <field name="NUM">45</field>
+          </shadow>
+        </value>
+      </block>
+      <block type="math_constant"></block>
+      <block type="math_number_property">
+        <value name="NUMBER_TO_CHECK">
+          <shadow type="math_number">
+            <field name="NUM">0</field>
+          </shadow>
+        </value>
+      </block>
+      <block type="math_round">
+        <value name="NUM">
+          <shadow type="math_number">
+            <field name="NUM">3.1</field>
+          </shadow>
+        </value>
+      </block>
+      <block type="math_on_list"></block>
+      <block type="math_modulo">
+        <value name="DIVIDEND">
+          <shadow type="math_number">
+            <field name="NUM">64</field>
+          </shadow>
+        </value>
+        <value name="DIVISOR">
+          <shadow type="math_number">
+            <field name="NUM">10</field>
+          </shadow>
+        </value>
+      </block>
+      <block type="math_constrain">
+        <value name="VALUE">
+          <shadow type="math_number">
+            <field name="NUM">50</field>
+          </shadow>
+        </value>
+        <value name="LOW">
+          <shadow type="math_number">
+            <field name="NUM">1</field>
+          </shadow>
+        </value>
+        <value name="HIGH">
+          <shadow type="math_number">
+            <field name="NUM">100</field>
+          </shadow>
+        </value>
+      </block>
+      <block type="math_random_int">
+        <value name="FROM">
+          <shadow type="math_number">
+            <field name="NUM">1</field>
+          </shadow>
+        </value>
+        <value name="TO">
+          <shadow type="math_number">
+            <field name="NUM">100</field>
+          </shadow>
+        </value>
+      </block>
+      <block type="math_random_float"></block>
+    </category>
+    <category name="Texte" colour="%{BKY_TEXTS_HUE}">
+      <block type="text"></block>
+      <block type="text_join"></block>
+      <block type="text_append">
+        <value name="TEXT">
+          <shadow type="text"></shadow>
+        </value>
+      </block>
+      <block type="text_length">
+        <value name="VALUE">
+          <shadow type="text">
+            <field name="TEXT">abc</field>
+          </shadow>
+        </value>
+      </block>
+      <block type="text_isEmpty">
+        <value name="VALUE">
+          <shadow type="text">
+            <field name="TEXT"></field>
+          </shadow>
+        </value>
+      </block>
+      <block type="text_indexOf">
+        <value name="VALUE">
+          <block type="variables_get">
+            <field name="VAR">{textVariable}</field>
+          </block>
+        </value>
+        <value name="FIND">
+          <shadow type="text">
+            <field name="TEXT">abc</field>
+          </shadow>
+        </value>
+      </block>
+      <block type="text_charAt">
+        <value name="VALUE">
+          <block type="variables_get">
+            <field name="VAR">{textVariable}</field>
+          </block>
+        </value>
+      </block>
+      <block type="text_getSubstring">
+        <value name="STRING">
+          <block type="variables_get">
+            <field name="VAR">{textVariable}</field>
+          </block>
+        </value>
+      </block>
+      <block type="text_changeCase">
+        <value name="TEXT">
+          <shadow type="text">
+            <field name="TEXT">abc</field>
+          </shadow>
+        </value>
+      </block>
+      <block type="text_trim">
+        <value name="TEXT">
+          <shadow type="text">
+            <field name="TEXT">abc</field>
+          </shadow>
+        </value>
+      </block>
+      <block type="text_print">
+        <value name="TEXT">
+          <shadow type="text">
+            <field name="TEXT">abc</field>
+          </shadow>
+        </value>
+      </block>
+      <block type="text_prompt_ext">
+        <value name="TEXT">
+          <shadow type="text">
+            <field name="TEXT">abc</field>
+          </shadow>
+        </value>
+      </block>
+    </category>
+    <category name="Liste" colour="%{BKY_LISTS_HUE}">
+      <block type="lists_create_with">
+        <mutation items="0"></mutation>
+      </block>
+      <block type="lists_create_with"></block>
+      <block type="lists_repeat">
+        <value name="NUM">
+          <shadow type="math_number">
+            <field name="NUM">5</field>
+          </shadow>
+        </value>
+      </block>
+      <block type="lists_length"></block>
+      <block type="lists_isEmpty"></block>
+      <block type="lists_indexOf">
+        <value name="VALUE">
+          <block type="variables_get">
+            <field name="VAR">{listVariable}</field>
+          </block>
+        </value>
+      </block>
+      <block type="lists_getIndex">
+        <value name="VALUE">
+          <block type="variables_get">
+            <field name="VAR">{listVariable}</field>
+          </block>
+        </value>
+      </block>
+      <block type="lists_setIndex">
+        <value name="LIST">
+          <block type="variables_get">
+            <field name="VAR">{listVariable}</field>
+          </block>
+        </value>
+      </block>
+      <block type="lists_getSublist">
+        <value name="LIST">
+          <block type="variables_get">
+            <field name="VAR">{listVariable}</field>
+          </block>
+        </value>
+      </block>
+      <block type="lists_split">
+        <value name="DELIM">
+          <shadow type="text">
+            <field name="TEXT">,</field>
+          </shadow>
+        </value>
+      </block>
+      <block type="lists_sort"></block>
+    </category>
+    <category name="Emoji" colour="350">
+      <block type="smile_emoji"></block>
+      <block type="pleure_emoji"></block>
+      <block type="nerd_emoji"></block>
+      <block type="hear_emoji"></block>
+      <block type="AgentSmith_emoji"></block>
+      <block type="Avatar_emoji"></block>
+      <block type="Boxing_emoji"></block>
+      <block type="Boxing_emoji"></block>
+      <block type="Brain_emoji"></block>
+      <block type="Breastfeeding_emoji"></block>
+      <block type="Bride_emoji"></block>
+      <block type="Controller_emoji"></block>
+      <block type="Corgi_emoji"></block>
+      <block type="Crying_emoji"></block>
+      <block type="DateManWoman_emoji"></block>
+      <block type="DJ_emoji"></block>
+      <block type="Evil_emoji"></block>
+      <block type="Folder_emoji"></block>
+      <block type="FortuneTeller_emoji"></block>
+      <block type="FrankensteinsMonster_emoji"></block>
+      <block type="FsocietyMask_emoji"></block>
+      <block type="Geisha_emoji"></block>
+      <block type="Groom_emoji"></block>
+      <block type="GuestFemale_emoji"></block>
+      <block type="HandCursor_emoji"></block>
+      <block type="Happy_emoji"></block>
+      <block type="HeartWithArrow_emoji"></block>
+      <block type="InLove_emoji"></block>
+      <block type="Jumper_emoji"></block>
+      <block type="Kiss_emoji"></block>
+      <block type="LikeFilled_emoji"></block>
+      <block type="Linux_emoji"></block>
+      <block type="LOL_emoji"></block>
+      <block type="Mime_emoji"></block>
+      <block type="MouseRightClick_emoji"></block>
+      <block type="Pig_emoji"></block>
+      <block type="Print_emoji"></block>
+      <block type="Python_emoji"></block>
+      <block type="Question_emoji"></block>
+      <block type="Save_emoji"></block>
+      <block type="Silent_emoji"></block>
+      <block type="Sleep_emoji"></block>
+      <block type="SteveJobs_emoji"></block>
+      <block type="Tango_emoji"></block>
+      <block type="UnderComputer_emoji"></block>
+      <block type="USBDisconnected_emoji"></block>
+      <block type="USBOff_emoji"></block>
+      <block type="Vampire_emoji"></block>
+      <block type="VenomHead_emoji"></block>
+      <block type="WatchTVinBed_emoji"></block>
+      <block type="Windows_emoji"></block>
+      <block type="Wink_emoji"></block>
+      <block type="Workstation_emoji"></block>
+      <block type="Zombie_emoji"></block>
+    </category>
   </xml>
-    <button value="generate code" onclick="run()"></button>
-  <script>
-      try {
-          var mathChangeJson = {
-              "message0": "change %1 by %2",
-              "args0": [
-                  {"type": "field_variable", "name": "VAR", "variable": "item", "variableTypes": [""]},
-                  {"type": "input_value", "name": "DELTA", "check": "Number"}
-              ],
-              "nextStatement": null,
-              "colour": 230
-          };
-
-          Blockly.Blocks['math_change'] = {
-              init: function() {
-                  this.jsonInit(mathChangeJson);
-                  // Assign 'this' to a variable for use in the tooltip closure below.
-                  var thisBlock = this;
-                  this.setTooltip(function() {
-                      return 'Add a number to variable "%1".'.replace('%1',
-                              thisBlock.getFieldValue('VAR'));
-                  });
-              }
-          };
-      }catch (e){
-          console.log(e.message)
-      }
-
-        var demoWorkspace = Blockly.inject('blocklyDiv',
-            {media: 'media/',
-             toolbox: document.getElementById('toolbox')});
-      function run() {
-
-              var xml = Blockly.JavaScript.workspaceToCode(demoWorkspace)
-              eval(xml);
-      }
-  </script>
-
+  <script src="js/workSpace.js"></script>
+  <script src="js/core.js"></script>
+  <script src="Addons.js"></script>
+  <script src="git.js"></script>
 </body>
 </html>

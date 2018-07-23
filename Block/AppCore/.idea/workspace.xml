@@ -1,0 +1,788 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="df5f7e4e-dd01-441f-a4d0-2115ac852bc0" name="Default" comment="" />
+    <ignored path="AppCore.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="AppCore" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Trinity_48px.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/media/emoji/Trinity_48px.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Guest Female_48px.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/media/emoji/Guest Female_48px.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Geisha_48px.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/media/emoji/Geisha_48px.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="core.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/core.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="javascript_compressed.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/javascript_compressed.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="php_compressed.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/php_compressed.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="workSpace.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/workSpace.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="191">
+              <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="messages.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/msg/messages.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="28" column="2" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Addons.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Addons.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2958">
+              <caret line="346" column="13" selection-start-line="346" selection-start-column="13" selection-end-line="346" selection-end-column="13" />
+              <folding>
+                <element signature="e#77#381#0" expanded="false" />
+                <element signature="e#862#963#0" expanded="false" />
+                <element signature="e#1072#1171#0" expanded="false" />
+                <element signature="e#1274#1371#0" expanded="false" />
+                <element signature="e#1485#1582#0" expanded="false" />
+                <element signature="e#1704#1807#0" expanded="false" />
+                <element signature="e#1916#2015#0" expanded="false" />
+                <element signature="e#2126#2225#0" expanded="false" />
+                <element signature="e#2331#2429#0" expanded="false" />
+                <element signature="e#2559#2665#0" expanded="false" />
+                <element signature="e#2771#2869#0" expanded="false" />
+                <element signature="e#2990#3093#0" expanded="false" />
+                <element signature="e#3196#3293#0" expanded="false" />
+                <element signature="e#3399#3497#0" expanded="false" />
+                <element signature="e#3603#3701#0" expanded="false" />
+                <element signature="e#3810#3909#0" expanded="false" />
+                <element signature="e#4038#4143#0" expanded="false" />
+                <element signature="e#4240#4335#0" expanded="false" />
+                <element signature="e#4438#4535#0" expanded="false" />
+                <element signature="e#4644#4743#0" expanded="false" />
+                <element signature="e#4874#4974#0" expanded="false" />
+                <element signature="e#5126#5239#0" expanded="false" />
+                <element signature="e#5367#5472#0" expanded="false" />
+                <element signature="e#5581#5680#0" expanded="false" />
+                <element signature="e#5786#5884#0" expanded="false" />
+                <element signature="e#5990#6088#0" expanded="false" />
+                <element signature="e#6213#6317#0" expanded="false" />
+                <element signature="e#6439#6545#0" expanded="false" />
+                <element signature="e#6651#6749#0" expanded="false" />
+                <element signature="e#6861#6961#0" expanded="false" />
+                <element signature="e#7096#7203#0" expanded="false" />
+                <element signature="e#7313#7412#0" expanded="false" />
+                <element signature="e#7521#7620#0" expanded="false" />
+                <element signature="e#7723#7820#0" expanded="false" />
+                <element signature="e#7942#8045#0" expanded="false" />
+                <element signature="e#8155#8254#0" expanded="false" />
+                <element signature="e#8360#8458#0" expanded="false" />
+                <element signature="e#8558#8654#0" expanded="false" />
+                <element signature="e#8779#8883#0" expanded="false" />
+                <element signature="e#8986#9083#0" expanded="false" />
+                <element signature="e#9221#9329#0" expanded="false" />
+                <element signature="e#9429#9525#0" expanded="false" />
+                <element signature="e#9637#9737#0" expanded="false" />
+                <element signature="e#9843#9941#0" expanded="false" />
+                <element signature="e#10050#10149#0" expanded="false" />
+                <element signature="e#10264#10365#0" expanded="false" />
+                <element signature="e#10468#10565#0" expanded="false" />
+                <element signature="e#10674#10773#0" expanded="false" />
+                <element signature="e#10879#10985#0" expanded="false" />
+                <element signature="e#11104#11206#0" expanded="false" />
+                <element signature="e#11312#11410#0" expanded="false" />
+                <element signature="e#11541#11647#0" expanded="false" />
+                <element signature="e#11784#11892#0" expanded="false" />
+                <element signature="e#12002#12101#0" expanded="false" />
+                <element signature="e#12213#12313#0" expanded="false" />
+                <element signature="e#12432#12534#0" expanded="false" />
+                <element signature="e#12664#12769#0" expanded="false" />
+                <element signature="e#12881#12981#0" expanded="false" />
+                <element signature="e#13084#13181#0" expanded="false" />
+                <element signature="e#13305#13409#0" expanded="false" />
+                <element signature="e#13518#13617#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Avatar_48px.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/media/emoji/Avatar_48px.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/css/basicStyle.css" />
+        <option value="$PROJECT_DIR$/js/workSpace.js" />
+        <option value="$PROJECT_DIR$/git.js" />
+        <option value="$PROJECT_DIR$/../../../build-Studio-Desktop_Qt_5_9_1_MSVC2015_64bit-Release/release/platform/jscompile.js" />
+        <option value="$PROJECT_DIR$/Addons.js" />
+        <option value="$PROJECT_DIR$/js/core.js" />
+        <option value="$PROJECT_DIR$/msg/js/fr.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="22" />
+    <option name="width" value="1370" />
+    <option name="height" value="754" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppCore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppCore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppCore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="jsx.switch.disabled" value="true" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\jessyAPP\AppProjet\KODAKA\kodakaStudio\App\Studio\Block\AppCore\js" />
+      <recent name="E:\jessyAPP\AppProjet\KODAKA\Block_test\AppCore\msg" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/AppCore/index.html">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="MongoRunConfiguration" factoryName="Mongo">
+      <setting name="path" value="" />
+      <setting name="shellParams" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="df5f7e4e-dd01-441f-a4d0-2115ac852bc0" name="Default" comment="" />
+      <created>1508073586248</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1508073586248</updated>
+      <workItem from="1508073587886" duration="8483000" />
+      <workItem from="1508160977128" duration="7980000" />
+      <workItem from="1508249898691" duration="1262000" />
+      <workItem from="1508420085019" duration="5683000" />
+      <workItem from="1508524407172" duration="12369000" />
+      <workItem from="1508795609327" duration="53000" />
+      <workItem from="1509895373813" duration="15819000" />
+      <workItem from="1509980387368" duration="3343000" />
+      <workItem from="1510348290406" duration="11342000" />
+      <workItem from="1510412904909" duration="4058000" />
+      <workItem from="1510440182965" duration="144000" />
+      <workItem from="1510491585942" duration="118000" />
+      <workItem from="1510504049174" duration="4460000" />
+      <workItem from="1510663098987" duration="1215000" />
+      <workItem from="1510778374660" duration="1440000" />
+      <workItem from="1510784118249" duration="5713000" />
+      <workItem from="1510857814872" duration="429000" />
+      <workItem from="1510868441740" duration="1295000" />
+      <workItem from="1510924820715" duration="133000" />
+      <workItem from="1511145023492" duration="2650000" />
+      <workItem from="1511151024576" duration="150000" />
+      <workItem from="1511177843794" duration="4491000" />
+      <workItem from="1511394053691" duration="15583000" />
+      <workItem from="1512843050306" duration="672000" />
+      <workItem from="1515108940996" duration="276000" />
+      <workItem from="1515261637190" duration="53000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="109214000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="22" width="1370" height="754" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14503817" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="22" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/css/basicStyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/msg/javascript_compressed.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blocks_compressed.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blockly_accessible_compressed.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blockly_compressed.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1938">
+          <caret line="114" column="89" selection-start-line="114" selection-start-column="89" selection-end-line="114" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dart_compressed.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../build-Studio-Desktop_Qt_5_9_1_MSVC2015_64bit-Release/release/platform/jscompile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/emoji/Crying_48px.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/emoji/Crying_50px.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/emoji/Nerd_48px.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/emoji/Neutral_52px.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/emoji/Wink_50px.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/emoji/Agent Smith_48px.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/emoji/Angel_48px.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/emoji/Apple_48px.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/emoji/Boxing 2_48px.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/emoji/Brain_48px.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/emoji/Breastfeeding_48px.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/emoji/Bride_48px.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/emoji/Folder_48px.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/emoji/Frankensteins Monster_48px.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/emoji/Evil_48px.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/emoji/DJ_48px.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/emoji/Date Man Woman_48px.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/emoji/Crazy_48px.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/emoji/Corgi_48px.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/emoji/Cool_48px.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/emoji/Computer_40px.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/emoji/Save_48px.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/emoji/Steve Jobs_48px.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/emoji/Surprised_48px.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/emoji/Swearing Female_48px.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/emoji/Tango_48px.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/emoji/Vampire_48px.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/emoji/Venom Head_48px.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/emoji/Zombie_48px.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/emoji/Wink_48px.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/emoji/Pig_48px.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/git.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/msg/js/fr.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6749">
+          <caret line="397" column="29" selection-start-line="397" selection-start-column="29" selection-end-line="397" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="335" column="24" selection-start-line="335" selection-start-column="24" selection-end-line="335" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/emoji/Trinity_48px.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/emoji/Guest Female_48px.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/emoji/Geisha_48px.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/emoji/Avatar_48px.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/msg/messages.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="28" column="2" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Addons.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2958">
+          <caret line="346" column="13" selection-start-line="346" selection-start-column="13" selection-end-line="346" selection-end-column="13" />
+          <folding>
+            <element signature="e#77#381#0" expanded="false" />
+            <element signature="e#862#963#0" expanded="false" />
+            <element signature="e#1072#1171#0" expanded="false" />
+            <element signature="e#1274#1371#0" expanded="false" />
+            <element signature="e#1485#1582#0" expanded="false" />
+            <element signature="e#1704#1807#0" expanded="false" />
+            <element signature="e#1916#2015#0" expanded="false" />
+            <element signature="e#2126#2225#0" expanded="false" />
+            <element signature="e#2331#2429#0" expanded="false" />
+            <element signature="e#2559#2665#0" expanded="false" />
+            <element signature="e#2771#2869#0" expanded="false" />
+            <element signature="e#2990#3093#0" expanded="false" />
+            <element signature="e#3196#3293#0" expanded="false" />
+            <element signature="e#3399#3497#0" expanded="false" />
+            <element signature="e#3603#3701#0" expanded="false" />
+            <element signature="e#3810#3909#0" expanded="false" />
+            <element signature="e#4038#4143#0" expanded="false" />
+            <element signature="e#4240#4335#0" expanded="false" />
+            <element signature="e#4438#4535#0" expanded="false" />
+            <element signature="e#4644#4743#0" expanded="false" />
+            <element signature="e#4874#4974#0" expanded="false" />
+            <element signature="e#5126#5239#0" expanded="false" />
+            <element signature="e#5367#5472#0" expanded="false" />
+            <element signature="e#5581#5680#0" expanded="false" />
+            <element signature="e#5786#5884#0" expanded="false" />
+            <element signature="e#5990#6088#0" expanded="false" />
+            <element signature="e#6213#6317#0" expanded="false" />
+            <element signature="e#6439#6545#0" expanded="false" />
+            <element signature="e#6651#6749#0" expanded="false" />
+            <element signature="e#6861#6961#0" expanded="false" />
+            <element signature="e#7096#7203#0" expanded="false" />
+            <element signature="e#7313#7412#0" expanded="false" />
+            <element signature="e#7521#7620#0" expanded="false" />
+            <element signature="e#7723#7820#0" expanded="false" />
+            <element signature="e#7942#8045#0" expanded="false" />
+            <element signature="e#8155#8254#0" expanded="false" />
+            <element signature="e#8360#8458#0" expanded="false" />
+            <element signature="e#8558#8654#0" expanded="false" />
+            <element signature="e#8779#8883#0" expanded="false" />
+            <element signature="e#8986#9083#0" expanded="false" />
+            <element signature="e#9221#9329#0" expanded="false" />
+            <element signature="e#9429#9525#0" expanded="false" />
+            <element signature="e#9637#9737#0" expanded="false" />
+            <element signature="e#9843#9941#0" expanded="false" />
+            <element signature="e#10050#10149#0" expanded="false" />
+            <element signature="e#10264#10365#0" expanded="false" />
+            <element signature="e#10468#10565#0" expanded="false" />
+            <element signature="e#10674#10773#0" expanded="false" />
+            <element signature="e#10879#10985#0" expanded="false" />
+            <element signature="e#11104#11206#0" expanded="false" />
+            <element signature="e#11312#11410#0" expanded="false" />
+            <element signature="e#11541#11647#0" expanded="false" />
+            <element signature="e#11784#11892#0" expanded="false" />
+            <element signature="e#12002#12101#0" expanded="false" />
+            <element signature="e#12213#12313#0" expanded="false" />
+            <element signature="e#12432#12534#0" expanded="false" />
+            <element signature="e#12664#12769#0" expanded="false" />
+            <element signature="e#12881#12981#0" expanded="false" />
+            <element signature="e#13084#13181#0" expanded="false" />
+            <element signature="e#13305#13409#0" expanded="false" />
+            <element signature="e#13518#13617#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/core.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/javascript_compressed.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/php_compressed.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/workSpace.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

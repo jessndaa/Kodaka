@@ -1,11 +1,15 @@
-QT += qml quick
+QT += qml quick core
+QT += webengine
 
 CONFIG += c++11
 
-SOURCES += main.cpp
-
+SOURCES += main.cpp \
+    utily.cpp
+ICON = iconkdk.png
 RESOURCES += qml.qrc
-
+RC_ICONS = iconekdkdesktop.ico
+ICON = iconekdkdesktop.ico
+VERSION = 1.0
 # Additional import path used to resolve QML modules in Qt Creator's code model
 QML_IMPORT_PATH =
 
@@ -27,3 +31,9 @@ DEFINES += QT_DEPRECATED_WARNINGS
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+HEADERS += \
+    utily.h
+
+DISTFILES += \
+    iconekdkdesktop.ico
