@@ -16,7 +16,6 @@ int main(int argc, char *argv[])
     QGuiApplication app(argc, argv);
     QtWebEngine::initialize();
     QQmlApplicationEngine engine;
-
     //register context in qml
     Utily utility(QCoreApplication::applicationDirPath());
     engine.rootContext()->setContextProperty("Utility", &utility);
