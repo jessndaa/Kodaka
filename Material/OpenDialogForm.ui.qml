@@ -48,28 +48,28 @@ Popup {
                             id: btnNew
                             width: parent.width
                             height: 27
-                            text: "Nouveau projet"
+                            text: "new project"
                         }
 
                         SimpleButton {
                             id: btnOpen
                             width: parent.width
                             height: 27
-                            text: "Ouvrir"
+                            text: "open project"
                         }
 
                         SimpleButton {
                             id: btnRecent
                             width: parent.width
                             height: 27
-                            text: "Récent"
+                            text: "recent"
                         }
 
                         SimpleButton {
                             id: btnExemple
                             width: parent.width
                             height: 27
-                            text: "Exemple"
+                            text: "exemples"
                         }
                     }
 
@@ -99,10 +99,10 @@ Popup {
                                 id: text2
                                 x: 8
                                 y: 8
-                                width: 120
+                                width: 145
                                 height: 70
                                 color: "#ffffff"
-                                text: qsTr("Apprenez à coder...")
+                                text: qsTr("learn to code...")
                                 wrapMode: Text.WordWrap
                                 verticalAlignment: Text.AlignVCenter
                                 horizontalAlignment: Text.AlignLeft

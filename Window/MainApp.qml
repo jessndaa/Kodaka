@@ -8,11 +8,29 @@ import Qt.labs.platform 1.0
 import "../Material/Tool" as Tl
 import "MainApp.js" as Js
 import Qt.labs.settings 1.0
+import QtQml 2.12
 ApplicationWindow {
     id:root
     visible: true
     width: 1000
     height: 700
+    // flags: Qt.Popup
+    // TODO: check the load configuration for open file loader
+    Timer{
+        running: !webengine.loading
+        interval: 5000
+        onTriggered: {
+            if(Utility.argFile){
+                root.currentFile = Utility.argFile;
+                root.script = Utility.readFile(root.currentFile)
+                Js.importKDKWorkSpace(root.script)
+                welcomeDialog.close()
+                fileAlreadyExits = true
+            }
+            stop();
+        }
+    }
+
     Rectangle{
         width: 50
         height:50
@@ -21,7 +39,7 @@ ApplicationWindow {
         color: "#ff0e7f"
         visible: stack.depth>2
         Text {
-            text: qsTr("<")
+            text:root.script|| qsTr("<")
             anchors.centerIn: parent
             font.pixelSize: 20
             color: "white"
@@ -85,7 +103,6 @@ ApplicationWindow {
                 welcomeDialog.close()
                 return
             }
-
             else error_label.visible = true
 
 
@@ -209,6 +226,7 @@ ApplicationWindow {
             exeDir.state="compile";
         }
         function hide(){
+            exeDir.state = "notCompile";
             exeDir.visible = false;
         }
         Component.onCompleted: {
@@ -389,6 +407,7 @@ ApplicationWindow {
                 }
                 onAndroidClicked: {
                     androidCompileDialogue.open()
+
                     apkDir.hide()
                     exeDir.hide()
                 }

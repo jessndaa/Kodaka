@@ -6,23 +6,23 @@ var secondaryEvent;
 var json;
 workSpace.addChangeListener(onWorkSpaceChange);
 socket.on('modify', (data)=>{
-    console.log(data)
-    workSpace.removeChangeListener(onWorkSpaceChange)
+    console.log(data);
+    workSpace.removeChangeListener(onWorkSpaceChange);
     var secondaryEvent = Blockly.Events.fromJson(data, workSpace);
     secondaryEvent.run(true);
-    socket.emit('data_sent')
+    socket.emit('data_sent');
 })
 
 socket.on('data_sent',()=>{
     workSpace.addChangeListener(onWorkSpaceChange);
 })
-// Convert JSON back into an event, then execute it.
 
+// Convert JSON back into an event, then execute it.
 function onWorkSpaceChange(event) {
-    if (event.type == Blockly.Events.UI) {
+    if (event.type === Blockly.Events.UI) {
         return;  // Don't mirror UI events.
     }
-    // Convert event to JSON.  This could  be transmitted a cross.
+    // Convert event to JSON.  it could  be transmitted a cross computer.
     json = event.toJson();
     socket.emit('wschange',json)
 }

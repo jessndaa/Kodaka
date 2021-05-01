@@ -12,8 +12,7 @@ T.Button{
     width: 200
     height: 40
     property alias label: labelo.text
-    property string icon: ""
-    property string localIcon:"Tool/deafault/menu/"
+    property string dataIcon
     background: Rectangle{
         id:bg
         implicitWidth: root.width
@@ -40,7 +39,7 @@ T.Button{
     /* this part of code import the ButtonDegreMenu incon */
     Image {
         id: image
-        source: localIcon+ icon
+        source: dataIcon
         anchors.verticalCenter: parent.verticalCenter
         x:8
         width: 20

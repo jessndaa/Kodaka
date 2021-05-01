@@ -18,7 +18,7 @@ function runprograme(){
     consoles.open()
 }
 
-// this part of code load the runprograme() execute that in the KODAKA console
+// load the runprograme() execute in the KODAKA console
 function playJS(message){
     if(message==="") return;
     else {
@@ -58,7 +58,7 @@ function workToXML(){
      webengine.engine.runJavaScript("getWorkSpaceText()",function(request){})
 }
 
-//this function get the source code and compile that in the codaka moc_change_to_js form
+//this function get the source code and compile that in the Kodaka moc_change_to_js form
 function compileJS(){
     webengine.engine.runJavaScript("CompileJS()",function(request){})
 }
@@ -72,10 +72,10 @@ function exportToPHP(){
 
 // execute the web engine query
 // the web engine query
-// it has the form of simple JSON object that we can  manupilate easly
-// the querry come in the type {type:Number, text:String}
-// the text content the WorkSpace text and type content the query's type
-//implemented in line 7-12
+// bundle the code to a simple JSON object that we can  manupilate easly for fetching c++ action
+// the querry come as {type:Number, text:String}
+// the text content the WorkSpace text and type content as query's type
+// implemented in line 7-13
 function runQuery(file, query){
     switch(query.type){
     case RUN_PROGRAME:

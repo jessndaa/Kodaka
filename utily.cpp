@@ -22,13 +22,12 @@ Utily::Utily(QString appDirNam)
 QString Utily::readFile(const QString& file){
     auto url =  resolveUrl(file);
     QFile fileFetch(url);
-          if (!fileFetch.open(QIODevice::ReadOnly | QIODevice::Text))
-              return QString("");
+    if (!fileFetch.open(QIODevice::ReadOnly | QIODevice::Text))
+        return QString("");
     QTextStream in(&fileFetch);
     QString line;
-    while (!in.atEnd()) {
-      line += in.readLine();
-    }
+    while (!in.atEnd())
+        line += in.readLine();
     return line;
 }
 
@@ -79,7 +78,7 @@ void Utily::saveToComplile(const QString &file,const QString& data)
     compileApp(_readyToCompileFile);
 }
 
-void Utily::toAndroidApk(const QString & apk)
+void Utily::toAndroidApk(const QString &apk)
 {
     auto url =  resolveUrl(apk);
     _apkCompileInfo = QFileInfo(url);
@@ -97,10 +96,11 @@ void Utily::toAndroidApk(const QString & apk)
                                                                     <<"100"
                                                                     <<"app-debug.apk"
                                                                     <<url);
+    QDir::setCurrent(_apkCompileInfo.absoluteDir().absolutePath());
 
 }
 
-// the function show the executable director by lunshing cmd command prompt
+// the function show the executable directory by lunshing cmd command prompt
 void Utily::showCompileExplorerDir()
 {
     QProcess exeProcess;
@@ -114,9 +114,17 @@ void Utily::showCompileApkExplorerDir()
     QDir::setCurrent(_apkCompileInfo.absoluteDir().absolutePath());
     exeProcess.execute("explorer.exe",QStringList()<<".");
 }
+
+
 QString Utily::resolveUrl(QString url){
     QString cleannd = "";
     for(auto i = 8; i< url.length();i++)
         cleannd.append(url[i]);
     return cleannd;
+}
+
+void Utily::loadArgFile(const QString &file)
+{
+     _argFile = file;
+     emit argFileChanged();
 }

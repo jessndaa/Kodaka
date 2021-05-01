@@ -4,11 +4,13 @@
 #include <QObject>
 #include <QString>
 #include <QFileInfo>
+
 class Utily : public QObject
 {
     Q_OBJECT
     Q_PROPERTY(QString appDirLoc READ appDirLoc WRITE setAppDirLoc NOTIFY appDirLocChanged)
     Q_PROPERTY(QString readyToCompileFile READ readyToCompileFile WRITE setReadyToCompileFile NOTIFY readyToCompileFileChanged)
+    Q_PROPERTY(QString argFile READ argFile WRITE setArgFile NOTIFY argFileChanged)
 
 public:
     explicit Utily(QObject *parent = nullptr);
@@ -24,11 +26,16 @@ public:
     ~Utily(){
 
     }
+    void loadArgFile(const QString&);
     QString resolveUrl(QString url);
 
     QString readyToCompileFile()const{
        return _readyToCompileFile;
     }
+    QString argFile() const{
+        return _argFile;
+    }
+
     void setReadyToCompileFile(const QString& infoChek){
         _readyToCompileFile = infoChek;
         emit readyToCompileFileChanged();
@@ -42,9 +49,15 @@ public:
         emit appDirLocChanged();
     }
 
+    void setArgFile(const QString &file){
+        _argFile = file;
+        emit argFileChanged();
+    }
+
 signals:
     void appDirLocChanged();
     void readyToCompileFileChanged();
+    void argFileChanged();
 public slots:
 private :
     QString _appDirName;
@@ -52,6 +65,7 @@ private :
     QString _readyToCompileFile;
     QFileInfo _exeCompileInfo;
     QFileInfo _apkCompileInfo;
+    QString _argFile;
 };
 
 #endif // UTILY_H

@@ -23,20 +23,20 @@ Drawer {
         width: parent.width
         MenuButton{
             width: parent.width
-            label: "Ouvrir"
-            icon: "Door Opened_50px.png"
+            label: "open"
+            dataIcon: "Tool/deafault/menu/Door Opened_50px.png"
             onClicked: openClicked()
         }
         MenuButton{
             width: parent.width
-            label: "Nouveau"
-            icon: "File_50px.png"
+            label: "new project"
+            dataIcon: "Tool/deafault/menu/File_50px.png"
             onClicked:newClicked()
         }
         MenuButton{
             width: parent.width
-            label: "Enregistrer"
-            icon: "Save Archive_50px.png"
+            label: "save"
+            dataIcon: "Tool/deafault/menu/Save Archive_50px.png"
             onClicked: saveClicked()
         }
 
@@ -56,26 +56,26 @@ Drawer {
 
         MenuButton{
             width: parent.width
-            label: "Exporter en PHP"
-            icon: "PHP_50px.png"
+            label: "compile to PHP"
+            dataIcon: "Tool/deafault/menu/PHP_50px.png"
             onClicked: phpExportCliked()
         }
         MenuButton{
             width: parent.width
-            label: "Exporter en Python"
-            icon: "Python_50px_1.png"
+            label: "compile to Python"
+            dataIcon: "Tool/deafault/menu/Python_50px_1.png"
             onClicked: pythonExportCliked()
         }
         MenuButton{
             width: parent.width
-            label: "Exporter en JavaScript"
-            icon: "JavaScript_50px.png"
+            label: "compile to JavaScript"
+            dataIcon: "Tool/deafault/menu/JavaScript_50px.png"
             onClicked: jsExportCliked()
         }
         MenuButton{
             width: parent.width
-            label: "Importer un ficher kdk"
-            icon: "kdk_50px.png"
+            label: "import a kdk file"
+            dataIcon: "Tool/deafault/menu/kdk_50px.png"
             onClicked: kdkImportCliked()
         }
     }

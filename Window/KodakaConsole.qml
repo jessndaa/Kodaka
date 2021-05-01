@@ -6,6 +6,7 @@ import "MainApp.js" as Js
 import QtQuick.Window 2.2
 import "consoleView" as CV
 import QtQuick.Layouts 1.3
+import QtQml 2.12
 
 Window{
     id:root
@@ -221,7 +222,7 @@ Window{
         }
     }
     function isEmoji(message){
-        if(/&lt;emoji&gt/.test(message))
+        if(message.indexOf("<emoji>") > -1 )
         return true;
         else
         return false;
@@ -231,7 +232,8 @@ Window{
         console.log(emoji)
         var emojiRoot="consoleView/images/"
         // begin js regular expression matchs
-        var a = /&lt;emoji&gt;(\S+)&lt;\/emoji&gt;/.exec(emoji)
+        var a = emoji.replace("<emoji>", "")
+        a = a.replace("</emoji>", "")
         // end js regular expression matchs
         //collecte emojis
         var emojis=[]
@@ -295,7 +297,7 @@ Window{
         emojis ["Zombie"]="Zombie"
 
         //end collect emojis
-        console.log(RegExp.$1)
-        return (emojiRoot + emojis[RegExp.$1]+"_48px.png")
+        console.log(a)
+        return (emojiRoot + emojis[a]+"_48px.png")
     }
 }

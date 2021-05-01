@@ -1,6 +1,6 @@
 // This file was automatically generated.  Do not modify.
 
-'use  strict';
+'use strict';
 
 goog.provide('Blockly.Msg.en');
 

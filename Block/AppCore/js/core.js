@@ -12,12 +12,12 @@ const WORKSPACEtoJSAndroid   = 0x000007
 
 function run() {
     var script = Blockly.JavaScript.workspaceToCode(workSpace);
-    console.log(JSON.parse(toQuery(RUN_PROGRAME, script)).text)
+    console.log(JSON.parse(toQuery(RUN_PROGRAME, script)).text);
     console.log(toQuery(RUN_PROGRAME, script));
 }
 
 function getWorkSpaceText() {
-    console.log(toQuery(WORKSPACE,generateXml()))
+    console.log(toQuery(WORKSPACE,generateXml()));
 }
 
 function laoadWorkSpace(script){

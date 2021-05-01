@@ -6,6 +6,7 @@
 #include <QtWebEngine>
 #include "utily.h"
 #include <QDebug>
+#include <iostream>
 int main(int argc, char *argv[])
 {
     QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
@@ -15,13 +16,14 @@ int main(int argc, char *argv[])
     QCoreApplication::setOrganizationDomain("cd.kodaka.rdc");
     QGuiApplication app(argc, argv);
     QtWebEngine::initialize();
+    std::cout<<" std: " << QString::fromUtf8(argv[1]).toStdString();
     QQmlApplicationEngine engine;
     //register context in qml
     Utily utility(QCoreApplication::applicationDirPath());
     engine.rootContext()->setContextProperty("Utility", &utility);
-
     engine.load(QUrl(QLatin1String("qrc:/main.qml")));
     if (engine.rootObjects().isEmpty())
         return -1;
+    if(!QString::fromUtf8(argv[1]).isEmpty()) utility.loadArgFile(QString::fromUtf8(argv[1]));
     return app.exec();
 }
