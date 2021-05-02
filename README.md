@@ -1,5 +1,3 @@
-
-
 ![image](logo/logo.JPG)
 
 # KODAKA STUDIO
