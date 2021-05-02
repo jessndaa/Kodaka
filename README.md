@@ -1,4 +1,4 @@
-![image](logo/logo.JPG)
+![image](logo/kdkicon.png)
 
 # KODAKA STUDIO
 
