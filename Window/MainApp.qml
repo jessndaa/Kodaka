@@ -31,7 +31,27 @@ ApplicationWindow {
         }
     }
 
-
+    Rectangle{
+        width: 50
+        height:50
+        x:10
+        y:10
+        color: "#ff0e7f"
+        visible: stack.depth>2
+        Text {
+            text:root.script|| qsTr("<")
+            anchors.centerIn: parent
+            font.pixelSize: 20
+            color: "white"
+        }
+        MouseArea{
+            anchors.fill: parent
+            onClicked: {
+                stack.pop()
+                webengine.visible= true
+            }
+        }
+    }
     property string currentFile: "sans titre"
     property string script: ""
     property bool fileAlreadyExits: false
