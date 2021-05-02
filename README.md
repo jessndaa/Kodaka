@@ -15,6 +15,6 @@ Starting from Qt 5.2, there is ```windeployqt``` tool you can use. Just run it f
 
 You will want to use ```--qmldir``` option to let the tool know where your QML files are, so it can figure out the needed QML dependencies.
 ### Note :
-KODAKA uses Qt Webengine which is only compatible with MSVC ++ 2015-2019, make sure to use an MSVC compatible with your Qt version.
+KODAKA uses Qt Webengine which is only compatible with MSVC++ 2015-2019, make sure to use an MSVC compatible with your Qt version.
 ## Testing
 to make sure you have everything, test in computer with no Qt SDK, or temporarily rename the Qt directory. 
