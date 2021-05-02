@@ -4,7 +4,7 @@
 
 KODAKA is software for learning computer programming through a block language.
 
-![image](logo/kodaka.png)
+![image](logo/kodaka.PNG)
 ## About KODAKA
 
 First unveiled at the Computer Days of the University of Kinshasa in 2017, KODAKA provides a programming interface and a language in the national language based on Google Blockly.
